@@ -9,20 +9,16 @@
 
 using namespace std;
 
-static unsigned long speed = 1000000; // microsecond
+static unsigned long speed = 1000000; // sleep 1000000 microsecond
 bool shouldPause = false;
 
-void sigint_handler(int sig) {// 控制速度， 捕获信号，读取文件
-    ifstream s("speed");
-    string line;
-    getline(s, line);
-
-    istringstream is(line);
-    is >> speed;
-    speed *= 1000000;
+void speedUp(int sig) {// 控制速度， 捕获信号，读取文件
+    speed += 30000; // 30 ms
 }
-
-void sigup_handler(int sig) {
+void speedDown(int sig) {
+    speed -= 30000; // 30ms
+}
+void Pause(int sig) {
     shouldPause = !shouldPause;
 }
 
@@ -33,8 +29,9 @@ void errorInput(const char *applicationName) {
 }
 
 int main(int argc, char *argv[]) {
-    signal(SIGINT, sigint_handler);
-    signal(SIGTSTP, sigup_handler);
+    signal(SIGINT, speedUp);
+    signal(SIGQUIT, speedDown);
+    signal(SIGTSTP, Pause);
     DataTransfer dataTransfer;
     std::vector<std::vector<int>> input;
 
@@ -57,7 +54,7 @@ int main(int argc, char *argv[]) {
     GameOfLife gameOfLife(input);
     for (;;) {
         if (shouldPause) {
-            std::cout << "Has evolved to the " << gameOfLife.getGeneration() << " generation" << std::endl;
+            std::cout << "Has evolved to the " << gameOfLife.getGeneration() << " generation. The speed is " << speed << std::endl;
             pause();
         }
         system("printf \"\\033c\""); // 命令行运行可清屏
