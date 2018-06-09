@@ -56,3 +56,12 @@ TEST_CASE("input from text01") {
     match(output, target);
 }
 
+TEST_CASE("input from text02") {
+    DataTransfer dataTransfer;
+    auto input = dataTransfer.file("trace02.txt");
+    auto standardOutput = dataTransfer.file("standard02.txt");
+
+    GameOfLife gameOfLife(input);
+    auto output = gameOfLife.nextGeneration();
+    match(output, standardOutput);
+}
