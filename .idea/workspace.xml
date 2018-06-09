@@ -13,11 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d869418c-60ce-4588-8a1a-b8f0c777d7f5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/include/GameOfLife.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/GameOfLife.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/DataTransfer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/DataTransfer.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/speed" beforeDir="false" afterPath="$PROJECT_DIR$/speed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameOfLife.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameOfLife.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gol_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gol_main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -34,8 +33,8 @@
       <file leaf-file-name="test.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="384">
+              <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
               <folding>
                 <element signature="e#1#21#0" expanded="true" />
               </folding>
@@ -47,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/GameOfLife.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -55,8 +54,8 @@
       <file leaf-file-name="DataTransfer.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataTransfer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="-59">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="e#43#61#0" expanded="true" />
               </folding>
@@ -67,8 +66,8 @@
       <file leaf-file-name="GameOfLife.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/GameOfLife.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="283">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -90,8 +89,8 @@
       <file leaf-file-name="gol_main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gol_main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="609">
+              <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -103,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/speed">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -116,8 +115,8 @@
       <file leaf-file-name="DataTransfer.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/DataTransfer.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -147,14 +146,14 @@
         <option value="$PROJECT_DIR$/test/standard04.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test/HelloTest.cpp" />
-        <option value="$PROJECT_DIR$/include/DataTransfer.hpp" />
         <option value="$PROJECT_DIR$/src/solution.cpp" />
         <option value="$PROJECT_DIR$/test/trace05.txt" />
-        <option value="$PROJECT_DIR$/src/DataTransfer.cpp" />
-        <option value="$PROJECT_DIR$/speed" />
         <option value="$PROJECT_DIR$/src/GameOfLife.cpp" />
         <option value="$PROJECT_DIR$/include/GameOfLife.hpp" />
+        <option value="$PROJECT_DIR$/src/DataTransfer.cpp" />
         <option value="$PROJECT_DIR$/test/test.cpp" />
+        <option value="$PROJECT_DIR$/speed" />
+        <option value="$PROJECT_DIR$/include/DataTransfer.hpp" />
         <option value="$PROJECT_DIR$/src/gol_main.cpp" />
       </list>
     </option>
@@ -169,10 +168,10 @@
     <packageJsonPaths />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="739" />
     <option name="y" value="23" />
-    <option name="width" value="1398" />
+    <option name="width" value="701" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -198,11 +197,6 @@
               <item name="game-of-life" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="game-of-life" type="b2602c69:ProjectViewProjectNode" />
-              <item name="game-of-life" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -227,10 +221,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Catch.After call nextGeneration twice, should return 3">
+  <component name="RunManager" selected="Catch.When call fromRandom() of DataTransfer, the size should no more than 50 and more than zero">
     <configuration name="After call nextGeneration twice, should return 3" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="After call nextGeneration twice, should return 3" TEST_MODE="SUITE_TEST" />
-    <configuration name="input from text01" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="input from text01" TEST_MODE="SUITE_TEST" />
-    <configuration name="input from text02" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="input from text02" TEST_MODE="SUITE_TEST" />
+    <configuration name="When call fromRandom() of DataTransfer, the size should no more than 50 and more than zero" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="When call fromRandom() of DataTransfer, the size should no more than 50 and more than zero" TEST_MODE="SUITE_TEST" />
+    <configuration name="When call fromRandom() of DataTransfer, the size should no more than 50" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="When call fromRandom() of DataTransfer, the size should no more than 50" TEST_MODE="SUITE_TEST" />
     <configuration name="input from text03" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="input from text03" TEST_MODE="SUITE_TEST" />
     <configuration name="input from text04" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="input from text04" TEST_MODE="SUITE_TEST" />
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="game_of_life" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="game_of_life" />
@@ -240,19 +234,19 @@
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.game_of_life" />
       <item itemvalue="Application.gol_test" />
-      <item itemvalue="Catch.input from text01" />
-      <item itemvalue="Catch.input from text02" />
       <item itemvalue="Catch.input from text03" />
       <item itemvalue="Catch.input from text04" />
       <item itemvalue="Catch.After call nextGeneration twice, should return 3" />
+      <item itemvalue="Catch.When call fromRandom() of DataTransfer, the size should no more than 50" />
+      <item itemvalue="Catch.When call fromRandom() of DataTransfer, the size should no more than 50 and more than zero" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Catch.When call fromRandom() of DataTransfer, the size should no more than 50 and more than zero" />
+        <item itemvalue="Catch.When call fromRandom() of DataTransfer, the size should no more than 50" />
         <item itemvalue="Catch.After call nextGeneration twice, should return 3" />
         <item itemvalue="Catch.input from text04" />
         <item itemvalue="Catch.input from text03" />
-        <item itemvalue="Catch.input from text02" />
-        <item itemvalue="Catch.input from text01" />
       </list>
     </recent_temporary>
   </component>
@@ -267,23 +261,11 @@
       <option name="presentableId" value="Default" />
       <updated>1528511040072</updated>
       <workItem from="1528511041761" duration="23436000" />
-      <workItem from="1528542730174" duration="2560000" />
+      <workItem from="1528542730174" duration="5892000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="input_from_text04 - 2018.06.09 at 15h 56m 37s.xml">
-      <configuration name="input from text04" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_all_live - 2018.06.09 at 19h 20m 34s.xml">
-      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_from_text01 - 2018.06.09 at 19h 20m 41s.xml">
-      <configuration name="input from text01" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_from_text01 - 2018.06.09 at 19h 21m 25s.xml">
-      <configuration name="input from text01" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="input_from_text01 - 2018.06.09 at 19h 21m 43s.xml">
       <configuration name="input from text01" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
@@ -302,21 +284,33 @@
     <history-entry file="After_call_nextGeneration_twice,_should_return_3 - 2018.06.09 at 19h 56m 55s.xml">
       <configuration name="After call nextGeneration twice, should return 3" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="When_call_fromRandom()_of_DataTransfer,_the_size_should_no_more_than_50 - 2018.06.09 at 20h 15m 37s.xml">
+      <configuration name="When call fromRandom() of DataTransfer, the size should no more than 50" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="When_call_fromRandom()_of_DataTransfer,_the_size_should_no_more_than_50 - 2018.06.09 at 20h 15m 55s.xml">
+      <configuration name="When call fromRandom() of DataTransfer, the size should no more than 50" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="When_call_fromRandom()_of_DataTransfer,_the_size_should_no_more_than_50 - 2018.06.09 at 20h 16m 15s.xml">
+      <configuration name="When call fromRandom() of DataTransfer, the size should no more than 50" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="When_call_fromRandom()_of_DataTransfer,_the_size_should_no_more_than_50_and_more_than_zero - 2018.06.09 at 20h 17m 38s.xml">
+      <configuration name="When call fromRandom() of DataTransfer, the size should no more than 50 and more than zero" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25996000" />
+    <option name="totallyTimeSpent" value="29328000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="23" width="1398" height="877" extended-state="6" />
+    <frame x="39" y="23" width="1401" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17138708" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19710144" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.49358973" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.52692306" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40128204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40128204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32820514" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -559,13 +553,6 @@
     <entry file="file://$PROJECT_DIR$/include/hello.hpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/DataTransfer.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -576,51 +563,58 @@
     <entry file="file://$PROJECT_DIR$/src/hello.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameOfLife.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataTransfer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="-59">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="e#43#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/speed">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="384">
+          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
           <folding>
             <element signature="e#1#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameOfLife.cpp">
+    <entry file="file://$PROJECT_DIR$/include/GameOfLife.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="283">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/GameOfLife.hpp">
+    <entry file="file://$PROJECT_DIR$/speed">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/DataTransfer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gol_main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="609">
+          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
