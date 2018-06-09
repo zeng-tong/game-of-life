@@ -6,11 +6,11 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories("include")
 
 set(SRC_FILE
-"src/hello.cpp" "src/solution.cpp" "src/DataTransfer.cpp"
+"src/hello.cpp" "src/GameOfLife.cpp" "src/DataTransfer.cpp"
 )
 
 set(TEST_FILE
-"test/HelloTest.cpp"
+"test/test.cpp"
 )
 
 add_executable(game_of_life ${SRC_FILE} "src/gol_main.cpp")

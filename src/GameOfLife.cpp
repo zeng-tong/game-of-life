@@ -1,7 +1,7 @@
 //
 // Created by tong zeng on 2018/6/9.
 //
-#include "solution.hpp"
+#include "GameOfLife.hpp"
 #include <vector>
 #include <iostream>
 
@@ -30,15 +30,15 @@ std::vector<std::vector<int>> GameOfLife::nextGeneration() {
     int row = lifeOcean.size() - 1;
     int col = lifeOcean[0].size() - 1;
 
-    int dx[8] = {-1, -1, -1, 0, 0, 1, 1, 1};
-    int dy[8] = {-1, 0, 1, -1, 1, -1, 0, 1};
+    int rowOffset[8] = {-1, -1, -1, 0, 0, 1, 1, 1};
+    int colOffset[8] = {-1, 0, 1, -1, 1, -1, 0, 1};
 
     for (int i = 0; i <= row; ++i) {
         for (int j = 0; j <= col; ++j) {
             int count = 0;
             for (int k = 0; k < 8; ++k) {
-                int x = i + dx[k];
-                int y = j + dy[k];
+                int x = i + rowOffset[k];
+                int y = j + colOffset[k];
                 if (judge(x, y, row, col) && lifeOcean[x][y] != DEAD)
                     ++count;
             }
@@ -48,5 +48,6 @@ std::vector<std::vector<int>> GameOfLife::nextGeneration() {
                 res[i][j] = 0;
         }
     }
+    this->lifeOcean = res;
     return res;
 }

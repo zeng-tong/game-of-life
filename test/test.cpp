@@ -6,7 +6,7 @@
 #include <iostream>
 #include <fstream>
 #include "DataTransfer.hpp"
-#include "solution.hpp"
+#include "GameOfLife.hpp"
 // See https://github.com/catchorg/Catch2/blob/master/docs/tutorial.md
 //     https://github.com/catchorg/Catch2/blob/master/docs/command-line.md
 

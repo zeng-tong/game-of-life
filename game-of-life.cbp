@@ -116,6 +116,10 @@
 			<Option target="gol_test"/>
 			<Option target="game_of_life"/>
 		</Unit>
+		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/src/GameOfLife.cpp">
+			<Option target="gol_test"/>
+			<Option target="game_of_life"/>
+		</Unit>
 		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/src/gol_main.cpp">
 			<Option target="game_of_life"/>
 		</Unit>
@@ -123,14 +127,10 @@
 			<Option target="gol_test"/>
 			<Option target="game_of_life"/>
 		</Unit>
-		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/src/solution.cpp">
-			<Option target="gol_test"/>
-			<Option target="game_of_life"/>
-		</Unit>
-		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/test/HelloTest.cpp">
-			<Option target="gol_test"/>
-		</Unit>
 		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/test/TestRunner.cpp">
+			<Option target="gol_test"/>
+		</Unit>
+		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/test/test.cpp">
 			<Option target="gol_test"/>
 		</Unit>
 		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/CMakeLists.txt">

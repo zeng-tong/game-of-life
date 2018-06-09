@@ -1,16 +1,38 @@
 #include "hello.hpp"
-#include "solution.hpp"
-
+#include "GameOfLife.hpp"
+#include "DataTransfer.hpp"
 #include <iostream>
+#include <unistd.h>
+#include <signal.h>
+#include <fstream>
+#include <sstream>
 
 using namespace std;
 
-int main() {
-    cout << hello() << endl;
-    std::vector<std::vector<int>> matrix(5, std::vector<int>(5, 0));
+static unsigned long speed = 3000000.0;
 
+
+void sigint_handler(int sig) {// 控制速度， 捕获信号，读取文件
+    ifstream s("speed");
+    string line;
+    getline(s, line);
+
+    istringstream is(line);
+    is >> speed;
+}
+
+int main() {
+    signal(SIGINT, sigint_handler);
+
+    DataTransfer dataTransfer;
+    auto input = dataTransfer.file("test/trace05.txt");
+    GameOfLife gameOfLife(input);
     for(;;) {
-        //matrix = game_of_life(matrix);
+        gameOfLife.showTheWorld();
+        gameOfLife.nextGeneration();
+        usleep(speed);
+        system("printf \"\\033c\""); // 命令行运行可清屏
+        std::cout << std::endl;
     }
     return 0;
 }
