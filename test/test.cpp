@@ -22,8 +22,8 @@ void match(std::vector<std::vector<int>>& source, std::vector<std::vector<int>>&
 
 void compareFromRead(const char* tracePath, const char* standardPath) {
     DataTransfer dataTransfer;
-    auto input = dataTransfer.file(tracePath);
-    auto standardOutput = dataTransfer.file(standardPath);
+    auto input = dataTransfer.fromFile(tracePath);
+    auto standardOutput = dataTransfer.fromFile(standardPath);
 
     GameOfLife gameOfLife(input);
     auto output = gameOfLife.nextGeneration();
@@ -63,7 +63,7 @@ TEST_CASE("input from text01") {
                                              {1,1,1,1},
                                              {1,1,1,1}};
     DataTransfer dataTransfer;
-    auto output = dataTransfer.file("trace01.txt");
+    auto output = dataTransfer.fromFile("trace01.txt");
     match(output, target);
 }
 
@@ -80,10 +80,17 @@ TEST_CASE("input from text04") {
 
 TEST_CASE("After call nextGeneration twice, should return 3") {
     DataTransfer dataTransfer;
-    auto input = dataTransfer.file("trace04.txt");
+    auto input = dataTransfer.fromFile("trace04.txt");
     GameOfLife gameOfLife(input);
     gameOfLife.nextGeneration();
     gameOfLife.nextGeneration();
     REQUIRE(gameOfLife.getGeneration() == 3);
+}
 
+TEST_CASE("When call fromRandom() of DataTransfer, the size should more than zero") {
+    DataTransfer dataTransfer;
+    for (int i = 0; i < 1000; ++i) {
+        auto output = dataTransfer.fromRandom();
+        REQUIRE(output.size() != 0);
+    }
 }

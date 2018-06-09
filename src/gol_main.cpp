@@ -28,7 +28,7 @@ int main() {
     signal(SIGINT, sigint_handler);
     signal(SIGTSTP, sigup_handler);
     DataTransfer dataTransfer;
-    auto input = dataTransfer.file("test/trace05.txt");
+    auto input = dataTransfer.fromFile("test/trace05.txt");
     GameOfLife gameOfLife(input);
     for(;;) {
         gameOfLife.showTheWorld();

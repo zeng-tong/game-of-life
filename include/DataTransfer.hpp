@@ -9,7 +9,12 @@
 
 class DataTransfer{
 public:
-    std::vector<std::vector<int>> standard();
-    std::vector<std::vector<int>> file(const char* filepath);
+    DataTransfer();
+    std::vector<std::vector<int>> fromRandom();
+    std::vector<std::vector<int>> fromFile(const char *filepath);
+
+private:
+    const int MAX_COLS = 50;
+    const int MAX_ROWS = 50;
 };
 #endif //GAME_OF_LIFE_DATATRANSFER_H

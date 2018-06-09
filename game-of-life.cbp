@@ -106,7 +106,7 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/Makefile&quot;  VERBOSE=1 game_of_life/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/Makefile&quot;  VERBOSE=1 &quot;$fromFile&quot;"/>
 					<Clean command="/usr/bin/make -f &quot;/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -f &quot;/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
