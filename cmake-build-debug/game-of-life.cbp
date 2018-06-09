@@ -48,7 +48,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="gol_test">
-				<Option output="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/cmake-build-debug/gol_test" prefix_auto="0" extension_auto="0"/>
+				<Option output="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/test/gol_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -71,7 +71,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="gol_test/fast">
-				<Option output="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/cmake-build-debug/gol_test" prefix_auto="0" extension_auto="0"/>
+				<Option output="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/test/gol_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -140,6 +140,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/src/DataTransfer.cpp">
+			<Option target="gol_test"/>
+			<Option target="game_of_life"/>
+		</Unit>
 		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/src/gol_main.cpp">
 			<Option target="game_of_life"/>
 		</Unit>

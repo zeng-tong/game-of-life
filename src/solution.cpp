@@ -30,13 +30,13 @@ std::vector<std::vector<int>> GameOfLife::nextGeneration() {
     int dx[8] = {-1, -1, -1, 0, 0, 1, 1, 1};
     int dy[8] = {-1, 0, 1, -1, 1, -1, 0, 1};
 
-    for (int i = 0; i <= row; ++i) { // 先绕过边界
+    for (int i = 0; i <= row; ++i) {
         for (int j = 0; j <= col; ++j) {
             int count = 0;
             for (int k = 0; k < 8; ++k) {
                 int x = i + dx[k];
                 int y = j + dy[k];
-                if (judge(x, y, row, col) && lifeOcean[x][y] == 1)
+                if (judge(x, y, row, col) && lifeOcean[x][y] != DEAD)
                     ++count;
             }
             if (count == 3)

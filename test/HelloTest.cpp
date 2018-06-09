@@ -4,6 +4,8 @@
 #include "hello.hpp"
 #include <vector>
 #include <iostream>
+#include <fstream>
+#include "DataTransfer.hpp"
 #include "solution.hpp"
 // See https://github.com/catchorg/Catch2/blob/master/docs/tutorial.md
 //     https://github.com/catchorg/Catch2/blob/master/docs/command-line.md
@@ -42,3 +44,15 @@ TEST_CASE("input all live") {
     auto output = gameOfLife.nextGeneration();
     match(output, target);
 }
+
+TEST_CASE("input from text01") {
+    std::vector<std::vector<int>> target = { {1,1,1,1},
+                                             {1,1,1,1},
+                                             {1,1,1,1},
+                                             {1,1,1,1},
+                                             {1,1,1,1}};
+    DataTransfer dataTransfer;
+    auto output = dataTransfer.file("trace01.txt");
+    match(output, target);
+}
+

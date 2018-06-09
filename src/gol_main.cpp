@@ -10,7 +10,7 @@ int main() {
     std::vector<std::vector<int>> matrix(5, std::vector<int>(5, 0));
 
     for(;;) {
-        matrix = game_of_life(matrix);
+        //matrix = game_of_life(matrix);
     }
     return 0;
 }

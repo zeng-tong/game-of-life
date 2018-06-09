@@ -17,6 +17,7 @@ public:
 
 private:
     std::vector<std::vector<int>> lifeOcean;
+    const int DEAD = 0;
 };
 
 #endif
