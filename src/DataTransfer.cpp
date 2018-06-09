@@ -13,10 +13,9 @@ std::vector<std::vector<int>> DataTransfer::file(const char *filepath) {
     std::string line;
     while(getline(file, line)) {
         std::istringstream is(line);
-        std::vector<int> row;
-        for(int tmp; is >> tmp;) {
-            row.push_back(tmp);
-        }
+
+        std::istream_iterator<int> int_begin(is), eof;
+        std::vector<int> row(int_begin, eof);
         result.push_back(row);
     }
     return result;

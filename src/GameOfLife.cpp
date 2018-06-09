@@ -5,7 +5,7 @@
 #include <vector>
 #include <iostream>
 
-bool judge(int x, int y, int row, int col) {
+bool validPosition(int x, int y, int row, int col) {
     return x >= 0 && x <= row && y >= 0 && y <= col;
 }
 
@@ -13,8 +13,8 @@ GameOfLife::GameOfLife(std::vector<std::vector<int>> &matrix) : lifeOcean(matrix
 }
 
 void GameOfLife::showTheWorld() {
-    for (auto land: lifeOcean) {
-        for (auto cell: land) {
+    for (auto row: lifeOcean) {
+        for (auto cell: row) {
             if (cell) std::cout << "*";
             else std::cout << " ";
         }
@@ -39,7 +39,7 @@ std::vector<std::vector<int>> GameOfLife::nextGeneration() {
             for (int k = 0; k < 8; ++k) {
                 int x = i + rowOffset[k];
                 int y = j + colOffset[k];
-                if (judge(x, y, row, col) && lifeOcean[x][y] != DEAD)
+                if (validPosition(x, y, row, col) && lifeOcean[x][y] != DEAD)
                     ++count;
             }
             if (count == 3)
