@@ -77,3 +77,13 @@ TEST_CASE("input from text03") {
 TEST_CASE("input from text04") {
     compareFromRead("trace04.txt", "standard04.txt");
 }
+
+TEST_CASE("After call nextGeneration twice, should return 3") {
+    DataTransfer dataTransfer;
+    auto input = dataTransfer.file("trace04.txt");
+    GameOfLife gameOfLife(input);
+    gameOfLife.nextGeneration();
+    gameOfLife.nextGeneration();
+    REQUIRE(gameOfLife.getGeneration() == 3);
+
+}

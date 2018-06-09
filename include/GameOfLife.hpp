@@ -9,14 +9,16 @@
 
 class GameOfLife {
 public:
-    GameOfLife(std::vector<std::vector<int>> &);
+    explicit GameOfLife(std::vector<std::vector<int>> &);
 
     void showTheWorld();
 
     std::vector<std::vector<int>> nextGeneration();
-
+    void setGeneration(int);
+    int getGeneration();
 private:
     std::vector<std::vector<int>> lifeOcean;
+    int generation;
     const int DEAD = 0;
 };
 

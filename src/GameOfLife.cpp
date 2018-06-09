@@ -9,7 +9,7 @@ bool validPosition(int x, int y, int row, int col) {
     return x >= 0 && x <= row && y >= 0 && y <= col;
 }
 
-GameOfLife::GameOfLife(std::vector<std::vector<int>> &matrix) : lifeOcean(matrix) {
+GameOfLife::GameOfLife(std::vector<std::vector<int>> &matrix) : lifeOcean(matrix), generation(1) {
 }
 
 void GameOfLife::showTheWorld() {
@@ -49,5 +49,14 @@ std::vector<std::vector<int>> GameOfLife::nextGeneration() {
         }
     }
     this->lifeOcean = res;
+    this->setGeneration(this->getGeneration() + 1);
     return res;
+}
+
+int GameOfLife::getGeneration() {
+    return this->generation;
+}
+
+void GameOfLife::setGeneration(int generation) {
+    this->generation = generation;
 }

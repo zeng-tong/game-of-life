@@ -12,7 +12,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d869418c-60ce-4588-8a1a-b8f0c777d7f5" name="Default" comment="" />
+    <list default="true" id="d869418c-60ce-4588-8a1a-b8f0c777d7f5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/include/GameOfLife.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/GameOfLife.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speed" beforeDir="false" afterPath="$PROJECT_DIR$/speed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameOfLife.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameOfLife.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gol_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gol_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,12 +30,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="311">
+              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="e#1#21#0" expanded="true" />
               </folding>
@@ -40,12 +46,8 @@
       <file leaf-file-name="GameOfLife.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameOfLife.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-              <folding>
-                <element signature="e#43#66#0" expanded="true" />
-                <element signature="e#106#205#0" />
-              </folding>
+            <state relative-caret-position="196">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -53,8 +55,8 @@
       <file leaf-file-name="DataTransfer.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataTransfer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="285">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="e#43#61#0" expanded="true" />
               </folding>
@@ -65,8 +67,8 @@
       <file leaf-file-name="GameOfLife.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/GameOfLife.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="148">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -88,8 +90,8 @@
       <file leaf-file-name="gol_main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gol_main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="303">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -101,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/speed">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -144,13 +146,15 @@
         <option value="$PROJECT_DIR$/include/solution.hpp" />
         <option value="$PROJECT_DIR$/test/standard04.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/DataTransfer.cpp" />
         <option value="$PROJECT_DIR$/test/HelloTest.cpp" />
         <option value="$PROJECT_DIR$/include/DataTransfer.hpp" />
         <option value="$PROJECT_DIR$/src/solution.cpp" />
         <option value="$PROJECT_DIR$/test/trace05.txt" />
-        <option value="$PROJECT_DIR$/src/GameOfLife.cpp" />
+        <option value="$PROJECT_DIR$/src/DataTransfer.cpp" />
         <option value="$PROJECT_DIR$/speed" />
+        <option value="$PROJECT_DIR$/src/GameOfLife.cpp" />
+        <option value="$PROJECT_DIR$/include/GameOfLife.hpp" />
+        <option value="$PROJECT_DIR$/test/test.cpp" />
         <option value="$PROJECT_DIR$/src/gol_main.cpp" />
       </list>
     </option>
@@ -165,10 +169,10 @@
     <packageJsonPaths />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="136" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="42" />
     <option name="y" value="23" />
-    <option name="width" value="1407" />
+    <option name="width" value="1398" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -187,7 +191,17 @@
             <path>
               <item name="game-of-life" type="b2602c69:ProjectViewProjectNode" />
               <item name="game-of-life" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game-of-life" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game-of-life" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game-of-life" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game-of-life" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,8 +227,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Build All">
-    <configuration name="input all live" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="input all live" TEST_MODE="SUITE_TEST" />
+  <component name="RunManager" selected="Catch.After call nextGeneration twice, should return 3">
+    <configuration name="After call nextGeneration twice, should return 3" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="After call nextGeneration twice, should return 3" TEST_MODE="SUITE_TEST" />
     <configuration name="input from text01" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="input from text01" TEST_MODE="SUITE_TEST" />
     <configuration name="input from text02" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="input from text02" TEST_MODE="SUITE_TEST" />
     <configuration name="input from text03" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="input from text03" TEST_MODE="SUITE_TEST" />
@@ -226,19 +240,19 @@
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.game_of_life" />
       <item itemvalue="Application.gol_test" />
-      <item itemvalue="Catch.input all live" />
       <item itemvalue="Catch.input from text01" />
       <item itemvalue="Catch.input from text02" />
       <item itemvalue="Catch.input from text03" />
       <item itemvalue="Catch.input from text04" />
+      <item itemvalue="Catch.After call nextGeneration twice, should return 3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Catch.After call nextGeneration twice, should return 3" />
         <item itemvalue="Catch.input from text04" />
         <item itemvalue="Catch.input from text03" />
         <item itemvalue="Catch.input from text02" />
         <item itemvalue="Catch.input from text01" />
-        <item itemvalue="Catch.input all live" />
       </list>
     </recent_temporary>
   </component>
@@ -253,85 +267,86 @@
       <option name="presentableId" value="Default" />
       <updated>1528511040072</updated>
       <workItem from="1528511041761" duration="23436000" />
+      <workItem from="1528542730174" duration="2560000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="input_from_text03 - 2018.06.09 at 15h 49m 04s.xml">
-      <configuration name="input from text03" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_from_text03 - 2018.06.09 at 15h 49m 39s.xml">
-      <configuration name="input from text03" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_from_text04 - 2018.06.09 at 15h 50m 46s.xml">
-      <configuration name="input from text04" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_from_text02 - 2018.06.09 at 15h 52m 48s.xml">
-      <configuration name="input from text02" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_from_text02 - 2018.06.09 at 15h 54m 24s.xml">
-      <configuration name="input from text02" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_from_text02 - 2018.06.09 at 15h 54m 44s.xml">
-      <configuration name="input from text02" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_from_text02 - 2018.06.09 at 15h 55m 34s.xml">
-      <configuration name="input from text02" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_from_text02 - 2018.06.09 at 15h 55m 44s.xml">
-      <configuration name="input from text02" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_from_text03 - 2018.06.09 at 15h 56m 12s.xml">
-      <configuration name="input from text03" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="input_from_text04 - 2018.06.09 at 15h 56m 37s.xml">
       <configuration name="input from text04" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="input_all_live - 2018.06.09 at 19h 20m 34s.xml">
+      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_from_text01 - 2018.06.09 at 19h 20m 41s.xml">
+      <configuration name="input from text01" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_from_text01 - 2018.06.09 at 19h 21m 25s.xml">
+      <configuration name="input from text01" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_from_text01 - 2018.06.09 at 19h 21m 43s.xml">
+      <configuration name="input from text01" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_from_text02 - 2018.06.09 at 19h 24m 15s.xml">
+      <configuration name="input from text02" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_from_text03 - 2018.06.09 at 19h 24m 18s.xml">
+      <configuration name="input from text03" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_from_text04 - 2018.06.09 at 19h 24m 20s.xml">
+      <configuration name="input from text04" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="After_call_nextGeneration_twice,_should_return_3 - 2018.06.09 at 19h 56m 46s.xml">
+      <configuration name="After call nextGeneration twice, should return 3" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="After_call_nextGeneration_twice,_should_return_3 - 2018.06.09 at 19h 56m 55s.xml">
+      <configuration name="After call nextGeneration twice, should return 3" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23436000" />
+    <option name="totallyTimeSpent" value="25996000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="23" width="1412" height="877" extended-state="6" />
+    <frame x="42" y="23" width="1398" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17181884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17138708" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.49358973" />
-      <window_info anchor="bottom" id="CMake" weight="0.32948717" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32820514" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40128204" />
-      <window_info anchor="bottom" id="Version Control" weight="0.52692306" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.49358973" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.32948717" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.52692306" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40128204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32820514" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32820514" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32820514" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17184116" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.40128204" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17184116" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.52692306" />
+      <window_info anchor="bottom" id="CMake" order="4" weight="0.32948717" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32820514" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.49358973" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32820514" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.52692306" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32820514" />
-      <window_info anchor="bottom" id="CMake" order="4" weight="0.32948717" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.49358973" />
       <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -369,10 +384,81 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#1#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameOfLife.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataTransfer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GameOfLife.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/hello.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speed">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/DataTransfer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gol_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/GameOfLife.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -470,9 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hello.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/hello.hpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -483,44 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/GameOfLife.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataTransfer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#43#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameOfLife.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding>
-            <element signature="e#43#66#0" expanded="true" />
-            <element signature="e#106#205#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -528,17 +573,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataTransfer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/speed">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#1#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameOfLife.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/GameOfLife.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gol_main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="303">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
