@@ -19,6 +19,17 @@ void match(std::vector<std::vector<int>>& source, std::vector<std::vector<int>>&
     }
 }
 
+
+void compareFromRead(const char* tracePath, const char* standardPath) {
+    DataTransfer dataTransfer;
+    auto input = dataTransfer.file(tracePath);
+    auto standardOutput = dataTransfer.file(standardPath);
+
+    GameOfLife gameOfLife(input);
+    auto output = gameOfLife.nextGeneration();
+    match(output, standardOutput);
+}
+
 TEST_CASE("input all dead, should return all dead when call game_of_life(). Not concern edge") {
     std::vector<std::vector<int>> matrix(5, std::vector<int>(5, 0));
     GameOfLife gameOfLife(matrix);
@@ -57,11 +68,12 @@ TEST_CASE("input from text01") {
 }
 
 TEST_CASE("input from text02") {
-    DataTransfer dataTransfer;
-    auto input = dataTransfer.file("trace02.txt");
-    auto standardOutput = dataTransfer.file("standard02.txt");
+    compareFromRead("trace02.txt", "standard02.txt");
+}
 
-    GameOfLife gameOfLife(input);
-    auto output = gameOfLife.nextGeneration();
-    match(output, standardOutput);
+TEST_CASE("input from text03") {
+    compareFromRead("trace03.txt", "standard03.txt");
+}
+TEST_CASE("input from text04") {
+    compareFromRead("trace04.txt", "standard04.txt");
 }

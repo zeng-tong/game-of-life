@@ -23,6 +23,9 @@ void GameOfLife::showTheWorld() {
 }
 
 std::vector<std::vector<int>> GameOfLife::nextGeneration() {
+    if (lifeOcean.empty())
+        return lifeOcean;
+
     auto res = lifeOcean;
     int row = lifeOcean.size() - 1;
     int col = lifeOcean[0].size() - 1;
