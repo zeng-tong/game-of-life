@@ -6,4 +6,5 @@
 #define SOLUTION_HPP
 #include <vector>
 std::vector<std::vector<int>> game_of_life(std::vector<std::vector<int>>&);
+void printMatrix(std::vector<std::vector<int>>& matrix);
 #endif
