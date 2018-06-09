@@ -13,9 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d869418c-60ce-4588-8a1a-b8f0c777d7f5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/solution.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/solution.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gol_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gol_main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/HelloTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloTest.cpp" afterDir="false" />
     </list>
@@ -47,11 +45,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="HelloTest.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloTest.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/HelloTest.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="54" column="1" lean-forward="true" selection-start-line="29" selection-end-line="54" selection-end-column="1" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#1#21#0" expanded="true" />
               </folding>
@@ -66,26 +64,31 @@
       </file>
       <file leaf-file-name="catch.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/catch.hpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11593" column="8" selection-start-line="11593" selection-start-column="8" selection-end-line="11593" selection-end-column="8" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="solution.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/solution.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="e#43#66#0" expanded="true" />
+                <element signature="e#106#205#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solution.hpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="solution.hpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/solution.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="270">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -113,10 +116,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/include/solution.hpp" />
-        <option value="$PROJECT_DIR$/test/HelloTest.cpp" />
         <option value="$PROJECT_DIR$/src/gol_main.cpp" />
         <option value="$PROJECT_DIR$/src/solution.cpp" />
+        <option value="$PROJECT_DIR$/test/HelloTest.cpp" />
+        <option value="$PROJECT_DIR$/include/solution.hpp" />
       </list>
     </option>
   </component>
@@ -129,10 +132,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="44" />
-    <option name="y" value="46" />
-    <option name="width" value="1636" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="42" />
+    <option name="y" value="23" />
+    <option name="width" value="819" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -193,6 +196,7 @@
   </component>
   <component name="RunManager" selected="Catch.input all live">
     <configuration name="input all dead, Now concern edge cell. should return all dead when call game_of_life()" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="input all dead, Now concern edge cell. should return all dead when call game_of_life()" TEST_MODE="SUITE_TEST" />
+    <configuration name="input all dead, should return all dead when call game_of_life(). Not concern edge" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="input all dead, should return all dead when call game_of_life(). Not concern edge" TEST_MODE="SUITE_TEST" />
     <configuration name="input all live" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="input all live" TEST_MODE="SUITE_TEST" />
     <configuration name="should return 'hello world' when call method hello()" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_CLASS="[hello_test]" TEST_METHOD="should return 'hello world' when call method hello()" TEST_MODE="SUITE_TEST" />
     <configuration name="test" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="game-of-life" TARGET_NAME="gol_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="game-of-life" RUN_TARGET_NAME="gol_test" TEST_METHOD="test" TEST_MODE="SUITE_TEST" />
@@ -207,11 +211,13 @@
       <item itemvalue="Catch.test" />
       <item itemvalue="Catch.input all dead, Now concern edge cell. should return all dead when call game_of_life()" />
       <item itemvalue="Catch.input all live" />
+      <item itemvalue="Catch.input all dead, should return all dead when call game_of_life(). Not concern edge" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Catch.input all live" />
         <item itemvalue="Catch.input all dead, Now concern edge cell. should return all dead when call game_of_life()" />
+        <item itemvalue="Catch.input all dead, should return all dead when call game_of_life(). Not concern edge" />
         <item itemvalue="Catch.test" />
         <item itemvalue="Catch.should return 'hello world' when call method hello()" />
       </list>
@@ -227,49 +233,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528511040072</updated>
-      <workItem from="1528511041761" duration="7750000" />
+      <workItem from="1528511041761" duration="10541000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="input_all_live - 2018.06.09 at 11h 50m 30s.xml">
-      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_all_live - 2018.06.09 at 11h 54m 52s.xml">
-      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_all_live - 2018.06.09 at 11h 57m 37s.xml">
-      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_all_live - 2018.06.09 at 11h 58m 47s.xml">
-      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_all_live - 2018.06.09 at 12h 03m 59s.xml">
-      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_all_live - 2018.06.09 at 12h 05m 54s.xml">
-      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_all_live - 2018.06.09 at 12h 34m 55s.xml">
-      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_all_live - 2018.06.09 at 12h 35m 39s.xml">
-      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="input_all_live - 2018.06.09 at 12h 36m 16s.xml">
-      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="input_all_live - 2018.06.09 at 12h 37m 34s.xml">
+      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_all_dead,_should_return_all_dead_when_call_game_of_life()__Not_concern_edge - 2018.06.09 at 12h 54m 36s.xml">
+      <configuration name="input all dead, should return all dead when call game_of_life(). Not concern edge" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_all_dead,_Now_concern_edge_cell__should_return_all_dead_when_call_game_of_life() - 2018.06.09 at 12h 55m 42s.xml">
+      <configuration name="input all dead, Now concern edge cell. should return all dead when call game_of_life()" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_all_dead,_should_return_all_dead_when_call_game_of_life()__Not_concern_edge - 2018.06.09 at 12h 56m 01s.xml">
+      <configuration name="input all dead, should return all dead when call game_of_life(). Not concern edge" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_all_live - 2018.06.09 at 12h 58m 25s.xml">
+      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_all_live - 2018.06.09 at 12h 58m 49s.xml">
+      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_all_live - 2018.06.09 at 12h 58m 52s.xml">
+      <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_all_dead,_should_return_all_dead_when_call_game_of_life()__Not_concern_edge - 2018.06.09 at 13h 21m 54s.xml">
+      <configuration name="input all dead, should return all dead when call game_of_life(). Not concern edge" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_all_dead,_Now_concern_edge_cell__should_return_all_dead_when_call_game_of_life() - 2018.06.09 at 13h 24m 58s.xml">
+      <configuration name="input all dead, Now concern edge cell. should return all dead when call game_of_life()" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="input_all_live - 2018.06.09 at 13h 25m 51s.xml">
       <configuration name="input all live" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7750000" />
+    <option name="totallyTimeSpent" value="10541000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="23" width="1637" height="1027" extended-state="6" />
+    <frame x="42" y="23" width="819" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14727722" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2982456" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32903227" />
       <window_info anchor="bottom" id="CMake" />
@@ -278,7 +285,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.40215054" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32903227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -311,28 +318,12 @@
     <entry file="file://$PROJECT_DIR$/src/hello.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/catch.hpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/hello.hpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/solution.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestRunner.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gol_main.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -344,23 +335,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/solution.cpp">
+    <entry file="file://$PROJECT_DIR$/include/catch.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="144">
+          <caret line="11593" column="8" selection-start-line="11593" selection-start-column="8" selection-end-line="11593" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestRunner.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/hello.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/HelloTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#43#66#0" expanded="true" />
+            <element signature="e#1#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/HelloTest.cpp">
+    <entry file="file://$PROJECT_DIR$/src/solution.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="54" column="1" lean-forward="true" selection-start-line="29" selection-end-line="54" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <element signature="e#1#21#0" expanded="true" />
+            <element signature="e#43#66#0" expanded="true" />
+            <element signature="e#106#205#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/solution.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
         </state>
       </provider>
     </entry>

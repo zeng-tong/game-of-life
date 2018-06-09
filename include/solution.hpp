@@ -4,7 +4,19 @@
 
 #ifndef SOLUTION_HPP
 #define SOLUTION_HPP
+
 #include <vector>
-std::vector<std::vector<int>> game_of_life(std::vector<std::vector<int>>&);
-void printMatrix(std::vector<std::vector<int>>& matrix);
+
+class GameOfLife {
+public:
+    GameOfLife(std::vector<std::vector<int>> &);
+
+    void showTheWorld();
+
+    std::vector<std::vector<int>> nextGeneration();
+
+private:
+    std::vector<std::vector<int>> lifeOcean;
+};
+
 #endif
