@@ -106,7 +106,7 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -f &quot;/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/Makefile&quot;  VERBOSE=1 game_of_life/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/Makefile&quot;  VERBOSE=1 &quot;$fromFile&quot;"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -f &quot;/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -f &quot;/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
@@ -121,10 +121,6 @@
 			<Option target="game_of_life"/>
 		</Unit>
 		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/src/gol_main.cpp">
-			<Option target="game_of_life"/>
-		</Unit>
-		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/src/hello.cpp">
-			<Option target="gol_test"/>
 			<Option target="game_of_life"/>
 		</Unit>
 		<Unit filename="/Users/tong/Dropbox/ClionProject/thoughtworks/game-of-life/test/TestRunner.cpp">

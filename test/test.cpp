@@ -1,7 +1,6 @@
 
 #include <catch.hpp>
 
-#include "hello.hpp"
 #include <vector>
 #include <iostream>
 #include <fstream>

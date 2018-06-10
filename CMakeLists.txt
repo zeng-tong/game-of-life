@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories("include")
 
 set(SRC_FILE
-"src/hello.cpp" "src/GameOfLife.cpp" "src/DataTransfer.cpp"
+        "src/GameOfLife.cpp" "src/DataTransfer.cpp"
 )
 
 set(TEST_FILE
